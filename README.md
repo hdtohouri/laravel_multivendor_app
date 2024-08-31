@@ -7,60 +7,33 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+## About This App
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Bienvenue dans notre application multivendor, développée avec Laravel. Cette application a été conçue pour comprendre les concepts fondamentaux du CRUD (Create, Read, Update, Delete) en Laravel. L'application offre trois interfaces principales :
+- Une interface pour les clients (acheteurs).
+- Une interface pour les vendeurs.
+- Une interface pour les administrateurs.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Fonctionnalités
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+### 1. Interface Client (Acheteurs)
 
-## Learning Laravel
+- Inscription et Connexion : Les clients peuvent créer un compte, se connecter, et gérer leurs informations personnelles.
+- Parcourir les Produits : Les clients peuvent parcourir les produits listés par les vendeurs, filtrer par catégories, et rechercher des produits spécifiques.
+- Ajouter au Panier et création de commande : Les clients peuvent ajouter des produits à leur panier et passer commande.
+- Historique des Commandes : Les clients peuvent consulter l'historique de leurs commandes passées et suivre les statuts des commandes en cours.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+### 2. Interface Vendeur
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+- Inscription et Connexion des Vendeurs : Les vendeurs peuvent créer un compte, se connecter, et gérer leurs boutiques.
+- Gestion des Produits : Les vendeurs peuvent ajouter, modifier, et supprimer leurs produits. Ils peuvent aussi gérer les stocks et les prix.
+- Suivi des Commandes : Les vendeurs peuvent voir les commandes passées par les clients pour leurs produits, gérer l'expédition et mettre à jour le statut des commandes.
+- Rapports de Ventes : Les vendeurs peuvent consulter des rapports sur leurs ventes, incluant les produits les plus vendus et les revenus générés.
 
-## Laravel Sponsors
+### 3. Interface Administrateur
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+- Gestion des Utilisateurs : L'administrateur peut gérer les comptes des clients et des vendeurs, incluant la création, la modification, et la suppression des comptes.
+- Modération des Contenus : L'administrateur peut modérer les produits listés, approuver ou refuser les produits ajoutés par les vendeurs.
+- Gestion des Catégories : L'administrateur peut gérer les catégories de produits, créer de nouvelles catégories, ou modifier celles existantes.
+- Rapports Globaux : L'administrateur a accès à des rapports détaillés sur les activités de l'application, incluant les ventes globales, le nombre de commandes, et l'activité des utilisateurs.
